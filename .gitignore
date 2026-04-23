@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Environment & secrets
+.env
+token.json
+credentials.json
+
+# Vector store (regeneratable)
+chroma_db/
+
+# Data files
+data/sample_docs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
